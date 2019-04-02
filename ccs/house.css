@@ -1,0 +1,40 @@
+.title-left {
+    float: left;
+    line-height: 2rem;
+}
+
+.title-left img {
+    height: 1rem;
+    width: 1rem;
+    padding-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.title-left span {
+    margin-left: 1rem;
+}
+
+.title-mid {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+.title-mid img {
+    height: 1.5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+.title-right {
+    float: right;
+    line-height: 2rem;
+}
+
+.title-right img {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    padding-right: 0.5rem;
+}
