@@ -1,8 +1,12 @@
+nav {
+    border-bottom: 1px solid #cacaca;
+}
+
 nav img {
     width: 100%;
 }
 
-nav .banner{
+nav .banner {
     height: 11.6rem;
 }
 
@@ -44,7 +48,7 @@ nav input {
     font-size: 0.8rem;
 }
 
-.condition .cdt{
+.condition .cdt {
     display: inline-block;
     width: 23%;
     text-align: center;
@@ -56,9 +60,48 @@ section {
     height: 8rem;
 }
 
-section .aside img{
+section .aside img {
     padding: 0.5rem;
     height: 7rem;
     width: 7rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+}
+
+section {
+    font-size: 0.6rem;
+    border-bottom: 1px solid #e5e5e5;
+    clear: both;
+}
+
+section .house-name {
+    font-size: 0.8rem;
+    color: #333;
+    padding-bottom: 0.5rem;
+}
+
+section .house-info {
+    font-size: 0.5rem;
+    color: #8b8b8b;
+}
+
+section .house-price {
+    font-size: 0.6rem;
+}
+
+section .house-price .price-all{
+    font-size: 0.8rem;
+    color: #fa5741;
+}
+
+section .house-price .price-one{
+    font-size: 0.3rem;
+    color: #8b8b8b;
+    padding-left: 1rem;
+}
+
+section .house-label .label{
+    color: rgb(89,171,253);
+    border-radius: 0.2rem;
+    background: rgba(89,171,253,0.15);
+    padding: 0.1rem 0.3rem;
 }

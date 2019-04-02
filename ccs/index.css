@@ -1,0 +1,27 @@
+.func {
+    height: 5rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fafafa;
+    width: 100%;
+    margin: 0px;
+}
+
+.func img {
+    width: 60%;
+}
+
+.func p {
+    font-size: 0.6rem;
+}
+
+.func-label {
+    width: 100%;
+}
+
+.split-block-title p{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    line-height: 2rem;
+    font-weight: 200;
+}

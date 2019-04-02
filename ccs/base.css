@@ -16,32 +16,46 @@ nav {
     position: relative;
 }
 
-section {
-}
+section {}
 
 footer {
     background-color: gray;
 }
 
 .split-block {
-    height: 0.6rem;
+    height: 0.8rem;
     background: #dadada;
 }
 
-.icon-search {
+.split-block-title {
+    height: 2rem;
+    background: #fafafa;
+    border-bottom: 1px solid #efefef;
+}
+
+.icon {
     display: inline-block;
     height: 0.8rem;
     width: 0.8rem;
-    background-image: url(../img/search.png);
     background-position: 0 0px;
     background-size: 1rem 1rem;
 }
 
+.icon-search {
+    background-image: url(../img/search.png);
+}
+
 .icon-down {
-    display: inline-block;
-    height: 0.8rem;
-    width: 0.8rem;
     background-image: url(../img/caret-down.png);
-    background-position: 0 0px;
-    background-size: 1rem 1rem;
+}
+
+.aside {
+    float: left;
+    width: 35%;
+}
+
+.article {
+    float: right;
+    width: 60%;
+    padding-top: 1rem;
 }
