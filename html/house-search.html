@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../ccs/base.css">
     <link rel="stylesheet" href="../ccs/house.css">
     <link rel="stylesheet" href="../ccs/house-search.css">
+    <script src="../js/main.js"></script>
 </head>
 
 <body>
@@ -109,5 +110,11 @@
     </section>
     <!-- <footer>footer</footer> -->
 </body>
+<script>
+    Main.getByTag("section").onclick = function () {
+        alert(123);
+        Main.goto("house-detail.html");
+    };
+</script>
 
 </html>

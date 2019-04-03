@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../ccs/base.css">
     <link rel="stylesheet" href="../ccs/house.css">
     <link rel="stylesheet" href="../ccs/index.css">
+    <script src="../js/main.js"></script>
 </head>
 
 <body>
@@ -37,7 +38,7 @@
     <nav>
         <div class="row func">
             <div class="col-xs-3">
-                <div class="func-label">
+                <div id="buyHouse" class="func-label">
                     <img src="../img/func-sell.png" alt="">
                     <p>购房</span>
                 </div>
@@ -138,5 +139,11 @@
         </div>
     </section>
 </body>
+
+<script>
+    Main.getById("buyHouse").onclick = function () {
+        Main.goto("house-search.html");
+    };
+</script>
 
 </html>
