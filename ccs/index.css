@@ -127,3 +127,11 @@ section .house-label .label {
 section p {
     margin: 0 0 7px;
 }
+
+.title-right img {
+    width: 1.5rem;
+}
+
+.title-left img {
+    width: 1.5rem;
+}
